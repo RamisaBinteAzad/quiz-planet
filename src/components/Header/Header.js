@@ -6,7 +6,7 @@ import "./Header.css";
 
 const Header = () => {
     return (
-      <header className="sticky-top shadow p-2 bg-light shadow">
+      <header className="sticky-top shadow p-2 bg-light ">
         <nav className="navbar navbar-expand-lg   ">
           <div className="container mt-4">
             <div>
@@ -39,7 +39,7 @@ const Header = () => {
               <ul className="navbar-nav me-5 ms-auto">
                 <li className="nav-item ms-3">
                   <Link
-                    className=" text-decoration-none color-Cadmium-Orange  fw-bold me-lg-5   active  "
+                    className=" text-decoration-none color-India-Green  fw-bold me-lg-5   active  "
                     aria-current="page"
                     id="color-change-link"
                     to="/"
@@ -49,7 +49,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item ms-3">
                   <Link
-                    className=" text-decoration-none color-India-Green fw-bold   me-lg-5 "
+                    className=" text-decoration-none color-Cadmium-Orange  fw-bold   me-lg-5 "
                     to="/quizAnalytics"
                   >
                     Quiz Analytics
@@ -57,7 +57,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item ms-3">
                   <Link
-                    className=" text-decoration-none color-India-Green fw-bold  me-lg-5 "
+                    className=" text-decoration-none color-Cadmium-Orange  fw-bold  me-lg-5 "
                     to="/blogs"
                   >
                     Blogs

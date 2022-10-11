@@ -11,9 +11,9 @@ const BannerHeader = () => {
         </div>
         <div className="col-md-5 ">
           <div className=" h-50">
-            <h1 className="text-success p-3  ps-lg-0  display-3 fw-bold pt-5">
+            <h2 className="text-success p-3  ps-lg-0  display-3 fw-bold pt-5">
               Let's Visit Quiz Planet and Start For Quiz.
-            </h1>
+            </h2>
             <p className="p-3 p-lg-0 text-muted fw-bold  ">
               Welcome to the world’s largest quiz community. Our Quiz Planet   has questions about every aspect concerning web
               development nowadays and will test your knowledge on the matter.
