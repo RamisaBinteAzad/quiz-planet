@@ -2,10 +2,15 @@ import React from 'react';
 import './QuizCategory.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from 'react-router-dom';
 
 const QuizCategory = ({ category }) => {
     // id: 5, name: 'Git', logo: 'https://live.staticflickr.com/65535/52412639027_5692c15b3f_o.png', total: 11}
     const { id, name, logo, total } = category;
+    const navigate = useNavigate();
+       const handleNavigate = () => {
+         navigate(`/quiz/${id}`);
+       };
     
   return (
     <div className="col">
@@ -20,6 +25,7 @@ const QuizCategory = ({ category }) => {
             </p>
           </div>
           <button
+            onClick={handleNavigate}
             className="rounded border-0 py-2   btn-bg w-100  "
             type="button"
           >
@@ -29,20 +35,6 @@ const QuizCategory = ({ category }) => {
               icon={faArrowRight}
             ></FontAwesomeIcon>
           </button>
-
-          {/* <p className="pt-3 text-muted"> {about}</p>
-            <p>
-              <span className="fw-bold">Activity Type:</span> {activityType}
-            </p>
-            <p className="fw-bold">For Age :{age}</p>
-            <p className="fw-bold">Time required : {time} min</p>
-            <button
-              onClick={() => props.handleAddToActivityPlan(props.activity)}
-              className="btn btn-primary w-100"
-              type="button"
-            >
-              Add To Your Plan
-            </button> */}
         </div>
       </div>
     </div>

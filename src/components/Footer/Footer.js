@@ -6,8 +6,9 @@ const Footer = () => {
        // 👇️ setting target to _blank with window.open
        window.open(url, "_blank", "noopener,noreferrer");
      };
-    return (
-      <footer className="h-100   p-5  shadow-lg   bg-light fw-bold">
+  return (
+    <div className="shadow-lg p-3 bg-light ">
+      <footer className="h-100      fw-bold">
         <div className="container text-center d-flex flex-column justify-content-center align-items-center text-success fs-5">
           <div>
             <img
@@ -72,7 +73,8 @@ const Footer = () => {
           </ul>
         </div>
       </footer>
-    );
+    </div>
+  );
 };
 
 export default Footer;
