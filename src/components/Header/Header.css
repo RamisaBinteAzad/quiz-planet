@@ -14,5 +14,27 @@
     color:#148407;
     font-size: 1.2rem;
 }
+.text-Cadmium-Orange{
+    color:#F28C28;
+}
+.banner-img{
+    height:80%;
+    width:100%;
+}
+.banner-container {
+    background-attachment: fixed;
+    
+} 
+.banner-container p{
+    font-size:1.1rem;
+}
+.btn-bg{
+    background-color:#F28C28;
+    color:white;
+    font-size: 1.2rem;
+}
+ button:hover{
+    background-color:blue;
+}
  
  
