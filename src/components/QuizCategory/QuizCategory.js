@@ -9,8 +9,8 @@ const QuizCategory = ({ category }) => {
     
   return (
     <div className="col">
-      <div className="card h-100 rounded p-3  bg-success">
-        <img className="img-fluid rounded" src={logo} alt="" />
+      <div className="card h-100 rounded p-3 ">
+        <img className="img-fluid rounded  bg-success" src={logo} alt="" />
         <div className="card-body  ">
           <div className="d-flex justify-content-between">
             <h5 className="card-title fs-4 fw-bold">{name}</h5>
@@ -19,7 +19,10 @@ const QuizCategory = ({ category }) => {
               {total}
             </p>
           </div>
-          <button className="rounded border-0 py-2   btn-bg w-100  " type="button">
+          <button
+            className="rounded border-0 py-2   btn-bg w-100  "
+            type="button"
+          >
             Start Practice
             <FontAwesomeIcon
               className="ms-2"
