@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.color-Cadmium-Orange{
+    color:#F28C28;
+    font-size: 1.2rem;
+}
+.color-India-Green {
+    color:#148407;
+    font-size: 1.2rem;
+}
+ 
+ 
