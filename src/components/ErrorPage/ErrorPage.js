@@ -14,9 +14,9 @@ const ErrorPage = () => {
           <img className="img-fluid w-100 h-25" src={logo} alt="" />
         </div>
       </div>
-      <div class=" d-flex  justify-content-center  align-items-center mb-3">
-        <div class="text-center mt-4 w-50 pt-3">
-          <p class="text-muted    fs-5  ">
+      <div className=" d-flex  justify-content-center  align-items-center mb-3">
+        <div className="text-center mt-4 w-50 pt-3">
+          <p className="text-muted    fs-5  ">
             The Page you are looking for might have been removed had its name
             changed or is temporarily unavailable
           </p>
