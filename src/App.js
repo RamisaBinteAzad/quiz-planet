@@ -23,6 +23,9 @@ function App() {
          },
          {
            path: "/quizAnalytics",
+           loader: async () => {
+             return fetch("https://openapi.programming-hero.com/api/quiz");
+           },
            element: <QuizAnalytics></QuizAnalytics>,
          },
          {
@@ -32,7 +35,6 @@ function App() {
          {
            path: "/quiz/:quizId",
            loader: async ({ params }) => {
-            
              return fetch(
                `https://openapi.programming-hero.com/api/quiz/${params.quizId}`
              );
@@ -41,6 +43,7 @@ function App() {
          },
        ],
      },
+     { path: "*", element: <div>This Route not found:404</div> },
    ]);
   return (
     <div className="App">

@@ -8,7 +8,7 @@ const Footer = () => {
      };
   return (
     <div className="shadow-lg p-3 bg-light ">
-      <footer className="h-100      fw-bold">
+      <footer className="h-100 p-3 fw-bold">
         <div className="container text-center d-flex flex-column justify-content-center align-items-center text-success fs-5">
           <div>
             <img

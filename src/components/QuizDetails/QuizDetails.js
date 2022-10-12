@@ -9,7 +9,7 @@ const QuizDetails = () => {
     const { total, id, name, logo } = quiz;
     
     const quizzes = quiz.questions;
-    console.log(quizzes);
+    // console.log(quizzes);
    
   return (
     <section className=" container pt-4  pb-4  ">

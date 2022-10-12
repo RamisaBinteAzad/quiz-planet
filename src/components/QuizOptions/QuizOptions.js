@@ -16,7 +16,7 @@ const QuizOptions = ({ option, correctAnswer }) => {
             
         }
         else {
-            toast.error("Oops!! Your Answer is" + e +"! ", {
+            toast.error("Oops!! Your Answer is " + e +"! ", {
               position: toast.POSITION.BOTTOM_LEFT
             });
              
@@ -63,22 +63,7 @@ const QuizOptions = ({ option, correctAnswer }) => {
               <ToastContainer className='border border-0'/>
             </label>
           </div>
-          {/* <div className="form-check  ">
-            <input
-              className="form-check-input "
-              type="radio"
-              name="flexRadioDefault"
-              id="flexRadioDefault1"
-              onClick={(event) => clickInputValue(event)}
-            />
-            <label
-              className="form-check-label fs-5 fw-bold"
-              htmlFor="flexRadioDefault1"
-              onClick={(event) => clickValue(event)}
-            >
-              {option}
-            </label>
-          </div> */}
+          
         </div>
       </div>
     </div>

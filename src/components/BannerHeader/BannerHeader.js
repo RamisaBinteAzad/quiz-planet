@@ -5,7 +5,7 @@ import {  faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const BannerHeader = () => {
     return (
-      <div className="row d-flex justify-center align-center h-50">
+      <div className="row d-flex justify-center align-center h-100">
         <div className="col-md-7  ">
           <img src={img} className="img-fluid w-100 " alt="" />
         </div>
