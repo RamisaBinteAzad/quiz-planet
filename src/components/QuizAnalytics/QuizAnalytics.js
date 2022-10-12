@@ -4,6 +4,7 @@ import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContai
  
 
 const QuizAnalytics = () => {
+  
   const quizTypes = useLoaderData().data;
   console.log(quizTypes)
   const quizData = quizTypes.map((types) => {
