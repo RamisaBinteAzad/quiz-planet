@@ -5,7 +5,7 @@
 
 ## Demo
 
-Visit:
+Visit: https://quiz-planet-9b21f5.netlify.app/
 ### Home Page
 <img src="./src/images/live-Website-ss.png" width="400" title="live-website-ss" />
 
