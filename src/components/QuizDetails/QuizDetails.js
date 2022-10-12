@@ -19,12 +19,14 @@ const QuizDetails = () => {
         </h2>
       </div>
       <div className="container text-center">
-         
-                  {quizzes.map((quiz,index) => (
-              
-                      <Quiz key={quiz.id} quiz={quiz} index={index}></Quiz>
-          ))}
-        
+        {quizzes.map((quiz, index) => (
+          <Quiz
+            key={quiz.id}
+            quiz={quiz}
+            index={index}
+            // handleCorrectAnswer={handleCorrectAnswer}
+          ></Quiz>
+        ))}
       </div>
     </section>
   );

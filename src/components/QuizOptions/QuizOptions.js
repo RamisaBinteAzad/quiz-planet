@@ -9,14 +9,14 @@ const QuizOptions = ({ option, correctAnswer }) => {
         if (e === 'Correct') {
     
             
-             toast.success("Superb!! You Answer is !" + e, {
+             toast.success("Superb!! Your Answer is " + e+"! ", {
                position: toast.POSITION.BOTTOM_RIGHT,
              });
             
             
         }
         else {
-            toast.error("Oops!! You Answer is!" + e, {
+            toast.error("Oops!! Your Answer is" + e +"! ", {
               position: toast.POSITION.BOTTOM_LEFT
             });
              
@@ -29,6 +29,7 @@ const QuizOptions = ({ option, correctAnswer }) => {
         
         event = event.target.value;
         if (event === correctAnswer) {
+            // console.log(correctAnswer);
             notify('Correct');
         }
         else {
