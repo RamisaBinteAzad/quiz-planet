@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import QuizAnalytics from './components/QuizAnalytics/QuizAnalytics';
 import Blogs from './components/Blogs/Blogs';
 import QuizDetails from './components/QuizDetails/QuizDetails';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 function App() {
    const router = createBrowserRouter([
@@ -43,7 +44,7 @@ function App() {
          },
        ],
      },
-     { path: "*", element: <div>This Route not found:404</div> },
+     { path: "*", element: <ErrorPage></ErrorPage> },
    ]);
   return (
     <div className="App">
