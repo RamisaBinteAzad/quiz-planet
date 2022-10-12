@@ -7,7 +7,9 @@ const QuizDetails = () => {
   const quiz = useLoaderData().data;
   //  {total: 8, id: 1, name: 'React', logo: 'https://live.staticflickr.com/65535/52413593240_e00326e727_o.png', questions: Array(8)}
     const { total, id, name, logo } = quiz;
-    const quizzes=quiz.questions;
+    
+    const quizzes = quiz.questions;
+    console.log(quizzes);
    
   return (
     <section className=" container pt-4  pb-4  ">
