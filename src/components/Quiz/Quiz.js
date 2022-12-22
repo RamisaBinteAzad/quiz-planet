@@ -37,7 +37,7 @@ const Quiz = ({ quiz, index}) => {
           </div>
         </div>
 
-        <div className="row row-cols-2   row-cols-md-2  g-4 text-color-Nyanza  ">
+        <div className="row row-cols-1   row-cols-md-2  g-4 text-color-Nyanza  ">
           {options.map((option, index) => (
             <QuizOptions
               key={index}
